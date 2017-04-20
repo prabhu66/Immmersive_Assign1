@@ -1,0 +1,180 @@
+ 
+ /*Header Css*/
+
+header {
+  height: 50px;
+  
+ }
+
+header img {
+  float: left;
+  height: 70px;
+  width:150px; 
+  display: inline-block;
+  margin-top: 0px;
+  position: fixed;
+  
+}
+
+ 
+body {margin:0;
+  background-image: url('../images/back1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+ }
+   
+  /*Navigation Bar CSS*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #001f3f;
+  position: fixed;
+  margin-left: 150px;
+  margin-top: -50px;
+  width: 100%;
+  height: 70px;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: cyan;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  padding-right: 20px;
+  font-family: 'Architects Daughter';
+
+}
+
+.topnav a:hover {
+  
+  color: white;
+  padding-bottom: 30px;
+
+}
+
+  /*960 Grid css*/
+
+.grid_6 img{
+  width: 460px;
+  height: 400px;
+
+}
+
+#car p{
+  margin-top: 5px;
+  color: white;
+}
+
+.grid_4 img{
+  width: 300px;
+  height:200px;
+  list-style: none;
+  margin-top: 5px;
+
+} 
+.container_12 h2{
+  margin-top: 8px;
+  font-family: 'Chewy';
+  font-size: 22px;
+  color: #4CC417;
+
+
+}
+
+.container_12 img{
+  margin-top: 10px;
+}
+
+.container_12 h4{
+  margin-top: 5px;
+  font-family: 'Bilbo Swash Caps'; 
+  font-size: 20px;;
+  color: #000080;
+
+}
+        
+p{
+  font-family: 'Balthazar';font-size: 16px;
+
+}
+
+h3{
+  margin: 10px;
+  font-family: 'Cabin Sketch';
+
+}
+
+   /*Footer Css*/
+     
+
+#social ul li{
+  display: inline-block;
+
+}
+
+.footer h3{
+  margin-top: 10px;
+  font-family: 'Volkhov';
+}
+
+.footer{
+  background-color: gray;
+  width:100%;  
+  margin-top: 10px; 
+  
+
+}
+.footer a{
+  text-decoration: none;
+}
+
+.footer a:hover {
+  background-color: #C9BE62;
+  color: #F5F5DC;
+  
+}
+
+.footer ul li{
+  margin-left: 5%;
+  list-style: none;
+  font-family: 'Unkempt';
+  font-size: 18px;
+  color: #C68E17;
+  
+
+}
+
+.footer1 {
+  float: left;
+  margin-left: 17%;
+  
+}
+
+.footer2 {
+  float: left;
+  margin-left: 10%;
+
+}
+
+.footer3 {
+  float: left;
+  margin-left: 10%;
+      
+}
+
+.footer4 {
+  float: left;
+  margin-left: 10%;
+
+}
+
+.clearFloat{
+  clear: both;
+
+}

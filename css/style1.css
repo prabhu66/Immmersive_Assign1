@@ -1,0 +1,240 @@
+ 
+   /*Header CSS*/
+
+header {
+  height: 50px;
+  
+ }
+
+header img {
+  float: left;
+  height: 70px;
+  width:150px; 
+  display: inline-block;
+  margin-top: 0;
+  position: fixed;
+  z-index: 1;
+  
+}
+
+ 
+body {margin:0;
+background-image: url('../images/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+   
+  /*Navigation Bar CSS*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #001f3f;
+  position: fixed;
+  margin-left: 150px;
+  margin-top: -70px;
+  width: 100%;
+  height: 70px;
+  z-index: 2;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: cyan;
+  text-align: center;
+  padding: 17px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  padding-right: 30px;
+  font-family: 'Architects Daughter';
+
+}
+
+.topnav a:hover {
+  
+  color: white;
+  padding-bottom: 30px;
+
+}
+
+   /*960 Grid CSS*/
+
+.container_12 img{
+	position: relative;
+	width: 220px;
+	height: 220px;
+
+}
+
+.container_12 marquee{
+	font-size: 20px;
+	margin-top: 20px;
+	font-family: 'Smokum';font-size: 25px;
+	color: #F88158;
+
+}
+
+   /*Grid Images*/
+
+.grid_3 img{
+	margin-top: 50px;
+	display: block;
+
+}
+
+.grid_3 img:hover{
+	margin-top: 40px;
+	display: block;
+	background-color: white;
+}
+
+.overlay {
+  position: absolute;
+  top: 172 !important;
+  height: 220px;
+  width: 220px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #E5E4E2;
+
+}
+
+.overlay_row2 {
+  position: absolute;
+  top: 478 !important;
+  height: 220px;
+  width: 220px;
+  opacity: 0;
+  
+  background-color: #E5E4E2;
+  
+}
+
+.overlay_row3 {
+  position: absolute;
+  top: 784 !important;
+  height: 220px;
+  width: 220px;
+  opacity: 0;
+  
+  background-color: #E5E4E2;
+  
+}
+
+.overlay:hover {
+  opacity: 0.7;
+}
+
+.overlay_row2:hover{
+  opacity: 0.7;
+
+}
+
+.overlay_row3:hover{
+  opacity: 0.7;
+  
+}
+
+.grid_3 h3{
+	text-align: center; 
+	margin-top: 10px;
+	font-family: 'Marck Script';
+	font-size: 20px;
+	color: #B1FB17;
+	
+}
+
+.grid_3 a{
+	text-decoration: none;
+
+}
+
+.grid_3 h3:hover{
+	color: #B048B5;
+
+}
+
+.text {
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: #151B8D;
+  text-align: center;
+  font-family: 'Boogaloo';
+
+}
+
+    
+   /*Footer CSS*/
+
+#social ul li{
+  display: inline-block;
+
+}
+
+.footer h3{
+  margin-top: 10px;
+  font-family: 'Volkhov';
+}
+
+.footer{
+  background-color: gray;
+  width:100%;  
+  margin-top: 10px; 
+  
+
+}
+.footer a{
+	text-decoration: none;
+}
+
+.footer a:hover {
+  background-color: #C9BE62;
+  color: #F5F5DC;
+  
+}
+
+.footer ul li{
+  margin-left: 5%;
+  list-style: none;
+  font-family: 'Unkempt';
+  font-size: 18px;
+  color: #C68E17;
+  
+
+}
+
+.footer1 {
+  float: left;
+  margin-left: 17%;
+  
+}
+
+.footer2 {
+  float: left;
+  margin-left: 10%;
+
+}
+
+.footer3 {
+  float: left;
+  margin-left: 10%;
+      
+}
+
+.footer4 {
+  float: left;
+  margin-left: 10%;
+
+}
+
+.clearFloat{
+  clear: both;
+
+}
